@@ -1,11 +1,11 @@
 #Lab0
 Commands used:
 
-CPU related: "Get-CimInstance Win32_Processor" and "(Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory" and "Get-CimInstance Win32_PhysicalMemory"
+CPU related: "Get-CimInstance Win32_Processor" and "(Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory" and "Get-CimInstance Win32_PhysicalMemory". The first one just returns Common Infromation Model (CMI) and the second one just returns the Physical memory specifically
 
-Disk related "Get-PhysicalDisk" and "Get-Volume -DriveLetter C"
+Disk related "Get-PhysicalDisk" and "Get-Volume -DriveLetter C". The first one Gets Physical disk information and the other one returns Volume of the C Drive
 
-firmware related: "Get-CimInstance Win32_BIOS" and "$env:firmware_type"
+firmware related: "Get-CimInstance Win32_BIOS" and "(Get-ComputerInfo).BiosFirmwareType". First one gives CIM about the BIOS and the second one sepecifies the firmware type
 
 What did not work:
 
