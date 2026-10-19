@@ -1,1 +1,12 @@
+#Lab0
+Commands used:
 
+CPU related: "Get-CimInstance Win32_Processor" and "(Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory" and "Get-CimInstance Win32_PhysicalMemory"
+
+Disk related "Get-PhysicalDisk" and "Get-Volume -DriveLetter C"
+
+firmware related: "Get-CimInstance Win32_BIOS" and "$env:firmware_type"
+
+What did not work:
+
+Couldnt get virtualization to turn on
