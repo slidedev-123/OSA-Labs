@@ -1,0 +1,35 @@
+PS> & 'D:\VM\VBoxManage.exe' showvminfo 'lab01-ubuntu' --machinereadable | Select-String 'CfgFile|SATA-0-0'
+CfgFile="D:\VM\VirtualBox VMs\lab01-ubuntu\lab01-ubuntu.vbox"
+"SATA-0-0"="D:\VM\VirtualBox VMs\lab01-ubuntu\Snapshots/{45a70166-5ebf-4f84-8c0d-b6f0793b6344}.vdi"
+
+PS> & 'D:\VM\VBoxManage.exe' showvminfo 'lab02-windows' --machinereadable | Select-String 'CfgFile|SATA-0-0'
+CfgFile="D:\VM\VirtualBox VMs\lab02-windows\lab02-windows.vbox"
+"SATA-0-0"="D:\VM\VirtualBox VMs\lab02-windows\lab02-windows.vdi"
+
+PS> & 'D:\VM\VBoxManage.exe' list hdds --long | Select-String 'UUID:|Parent UUID:|Location:|Capacity:|Storage format:|Format variant:'
+UUID:           496dd41a-fc43-463c-951e-2c370d32c8e5
+Parent UUID:    base
+Location:       D:\VM\VirtualBox VMs\lab01-ubuntu\lab01-ubuntu.vdi
+Storage format: VDI
+Format variant: dynamic default
+Capacity:       25600 MBytes
+
+UUID:           45a70166-5ebf-4f84-8c0d-b6f0793b6344
+Parent UUID:    496dd41a-fc43-463c-951e-2c370d32c8e5
+Location:       D:\VM\VirtualBox VMs\lab01-ubuntu\Snapshots/{45a70166-5ebf-4f84-8c0d-b6f0793b6344}.vdi
+Storage format: VDI
+Format variant: differencing default
+Capacity:       25600 MBytes
+
+UUID:           d659db6d-c541-4cf6-923c-32eba76e2a8f
+Parent UUID:    base
+Location:       D:\VM\VirtualBox VMs\lab02-windows\lab02-windows.vdi
+Storage format: VDI
+Format variant: dynamic default
+Capacity:       65536 MBytes
+
+PS> Get-Volume -DriveLetter D | Select-Object DriveLetter, Size, SizeRemaining
+
+DriveLetter          Size SizeRemaining
+-----------          ---- -------------
+          D 1000186310656  325445545984
