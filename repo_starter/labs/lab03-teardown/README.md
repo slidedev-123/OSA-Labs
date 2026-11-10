@@ -92,7 +92,7 @@ Intel Laminar RM1 (stock cooler for the Core i5-13400)
 
 ## What did not work the first time
 
-I saved most of the pictures for the evidence file in the file type they came in, which made me change the file types by hand.
+I saved most of the pictures for the evidence file in the file type they came in, which made me change the file types by hand. For my second attempt i added the two builds that would owrk the best with the parts and added images for the coolers.
 
 ## Evidence
 
