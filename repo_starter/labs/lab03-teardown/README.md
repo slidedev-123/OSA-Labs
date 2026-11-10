@@ -90,6 +90,25 @@ Intel Laminar RM1 (stock cooler for the Core i5-13400)
 | Cooler | **AMD Wraith Stealth** | Ships with the 7600, fits AM5, and handles 65 W at stock settings. |
 | Power supply | **Corsair RM750e** | Has the 24-pin and CPU 8-pin connectors; 750 W leaves room for a graphics card later. |
 
+# Links to the parts
+
+# PC parts: maker links
+
+| Part | Maker | Build | Link type | Link | How to find the exact page |
+|:--|:--|:--|:--|:--|:--|
+| **AMD Ryzen 5 7600** | AMD | A (AMD) |  Official product page | [Open](https://www.amd.com/de/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html) | German-language page; use the site's country/language selector. Boxed cooler (Wraith Stealth) is covered here. |
+| **Intel Core i5-13400** | Intel | B (Intel) |  Official product page | [Open](https://ark.intel.com/content/www/us/en/ark/products/230495/intel-core-i513400-processor-20m-cache-up-to-4-60-ghz.html) | Intel ARK page; also confirms the boxed cooler (Laminar RM1) for the non-F chip. |
+| **ASUS PRIME B650M-A** | ASUS | A (AMD) |  Official product page | [Open](https://asus.com/motherboards-components/motherboards/prime/prime-b650m-a/techspec) | Tech specs page. Check the CPU Support list there. |
+| **Samsung 990 PRO 1 TB** | Samsung | A (AMD) |  Official product page | [Open](https://www.samsung.com/in/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw) | India store page; use the country selector. Part number MZ-V9P1T0BW. |
+| **MSI PRO B760M-A WIFI DDR4** | MSI | B (Intel) |  Maker site only | [Open](https://www.msi.com) | Search the full model name. Part numbers seen: 7D99-001R, 911-7D99-001. |
+| **Kingston FURY Beast DDR5-5600, 16 GB** | Kingston | A (AMD) |  Maker site only | [Open](https://www.kingston.com) | Search 'FURY Beast DDR5'. Several variants exist (e.g. KF556C40BBA-16, KF556C40BB-16, both CL40); match your exact part number. |
+| **Crucial DDR4-3200, 16 GB** | Crucial | B (Intel) |  Maker site only | [Open](https://www.crucial.com) | Search 'DDR4-3200 16GB'. Not checked: Crucial consumer brand may redirect or have limited support. |
+| **Samsung 870 EVO 1 TB** | Samsung | B (Intel) |  Maker site only | [Open](https://samsung.com/ssd) | Open 870 EVO and pick the 1 TB model. Part number MZ-77E1T0B. |
+| **Corsair RM750e (750 W)** | Corsair | A (AMD) |  Maker site only | [Open](https://www.corsair.com) | Search 'RM750e'. |
+| **AMD Wraith Stealth cooler** | AMD | A (AMD) |  See CPU page | [Open](https://www.amd.com/de/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html) | Bundled with the boxed Ryzen 5 7600; not sold as a separate listing. |
+| **Intel Laminar RM1 cooler** | Intel | B (Intel) |  See CPU page | [Open](https://ark.intel.com/content/www/us/en/ark/products/230495/intel-core-i513400-processor-20m-cache-up-to-4-60-ghz.html) | Bundled with the boxed (non-F) Core i5-13400; not sold as a separate listing. |
+
+
 ## What did not work the first time
 
 I saved most of the pictures for the evidence file in the file type they came in, which made me change the file types by hand. For my second attempt i added the two builds that would owrk the best with the parts and added images for the coolers.
