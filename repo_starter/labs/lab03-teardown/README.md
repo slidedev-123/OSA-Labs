@@ -55,42 +55,19 @@ Intel Laminar RM1 (stock cooler for the Core i5-13400)
 
 # The  builds
 
-# PC Builds: AMD vs Intel
-
 ## Overview
 
-| Role | 🔴 Build A: AMD (AM5, DDR5) | 🔵 Build B: Intel (LGA1700, DDR4) |
+| Role |  Build B: AMD (AM5, DDR5) |  Build A: Intel (LGA1700, DDR4) |
 |:--|:--|:--|
 | **CPU** | AMD Ryzen 5 7600 | Intel Core i5-13400 |
 | **Motherboard** | ASUS PRIME B650M-A | MSI PRO B760M-A WIFI DDR4 |
 | **Memory** | Kingston FURY Beast DDR5-5600, 16 GB | Crucial DDR4-3200, 16 GB |
 | **Storage** | Samsung 990 PRO 1 TB (NVMe, M.2) | Samsung 870 EVO 1 TB (SATA, 2.5″) |
 | **Cooler** | AMD Wraith Stealth (boxed) | Intel Laminar RM1 (boxed) |
-| **Power supply** | Corsair RM750e (750 W) | ❌ Not included |
+| **Power supply** | Corsair RM750e (750 W) |  Not included |
 
 ---
 
-## 🔴 Build A: AMD (AM5, DDR5)
-
-| Part | Component | Why it goes in this build |
-|:--|:--|:--|
-| CPU | **Ryzen 5 7600** | AM5 CPU that matches the ASUS board's socket and supports only DDR5. |
-| Motherboard | **ASUS PRIME B650M-A** | The only AM5 board in the list; DDR5 only; the 7600 is on its CPU Support list. |
-| Memory | **Kingston FURY Beast DDR5-5600, 16 GB** | The only DDR5 module, and AM5 can't use DDR4. |
-| Storage | **Samsung 990 PRO 1 TB** | The board has M.2 slots, and a PCIe 4.0 NVMe drive can use the full bus. |
-| Cooler | **AMD Wraith Stealth** | Ships with the 7600, fits AM5, and handles 65 W at stock settings. |
-| Power supply | **Corsair RM750e** | Has the 24-pin and CPU 8-pin connectors; 750 W leaves room for a graphics card later. |
-
-**Still needs:**
-
-- [ ] Micro-ATX case
-- [ ] Operating system
-- [ ] Monitor, keyboard and mouse
-- [ ] Ethernet cable or Wi-Fi adapter (this board has no Wi-Fi)
-
-> The 7600 has basic integrated graphics, so no graphics card is required to start.
-
----
 
 ##  Build A: Intel (LGA1700, DDR4)
 
