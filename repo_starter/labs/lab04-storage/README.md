@@ -1,6 +1,6 @@
 # Lab 4 — Partition, mirror, fail, recover
 
-Pair: Amirgali A.+ Kelis A. · Date: 10 November 2026 · Hypervisor: VirtualBox
+Pair: Tair, Robert · Date: 10 November 2026 · Hypervisor: VirtualBox
 
 ## Windows
 
